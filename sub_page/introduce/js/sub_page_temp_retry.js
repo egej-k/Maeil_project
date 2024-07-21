@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  $(".not_ready").on("click", function(){
+    alert("준비중입니다.")
+  })
   $(window).scroll(function(){
     var scroll = $(window).scrollTop();
     if (scroll > 1) {

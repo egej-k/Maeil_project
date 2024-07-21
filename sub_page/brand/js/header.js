@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $(".not_ready").on("click", function(){
+        alert("준비중입니다.")
+      })
+
     $(".gnb ul").hover(
         function() {
             $(".gnb div, .nav_bg").stop().slideDown();

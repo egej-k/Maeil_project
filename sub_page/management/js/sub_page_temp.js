@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    $(".not_ready").on("click", function(){
+        alert("준비중입니다.")
+      })
+
   let open_check1 = 0;
   let open_check2 = 0;
 

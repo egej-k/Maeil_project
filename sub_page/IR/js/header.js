@@ -1,4 +1,4 @@
-$(window).scroll(function(){
+$(window).scroll(function(){  
     var scroll = $(window).scrollTop();
     if (scroll > 1) {
       $(".side_menu h3").css({"background":"#194e91", "color":"#fff","transition-duration":"0.7s"});

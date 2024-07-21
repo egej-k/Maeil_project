@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $(".not_ready").on("click", function(){
+        alert("준비중입니다.")
+      })
+      
     function validateName() {
         var nameInput = $("#name").val();
         var nameMessage = $("#nameMessage");
